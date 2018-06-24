@@ -13,6 +13,9 @@
 		21F27EE320DC403D00C1A0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F27EE220DC403D00C1A0B6 /* Assets.xcassets */; };
 		21F27EE620DC403D00C1A0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F27EE420DC403D00C1A0B6 /* LaunchScreen.storyboard */; };
 		21F27EE920DC403D00C1A0B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27EE820DC403D00C1A0B6 /* main.m */; };
+		21F27EF420DC48BC00C1A0B6 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27EF320DC48BC00C1A0B6 /* Photo.m */; };
+		21F27EF720DC4F3700C1A0B6 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27EF620DC4F3700C1A0B6 /* NetworkManager.m */; };
+		21F27EFA20DC521800C1A0B6 /* CatPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27EF920DC521800C1A0B6 /* CatPictureCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		21F27EE520DC403D00C1A0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F27EE720DC403D00C1A0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F27EE820DC403D00C1A0B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F27EF220DC48BC00C1A0B6 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		21F27EF320DC48BC00C1A0B6 /* Photo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		21F27EF520DC4F3700C1A0B6 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		21F27EF620DC4F3700C1A0B6 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		21F27EF820DC521800C1A0B6 /* CatPictureCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		21F27EF920DC521800C1A0B6 /* CatPictureCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatPictureCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				21F27EDA20DC403B00C1A0B6 /* AppDelegate.m */,
 				21F27EDC20DC403B00C1A0B6 /* ViewController.h */,
 				21F27EDD20DC403B00C1A0B6 /* ViewController.m */,
+				21F27EF820DC521800C1A0B6 /* CatPictureCollectionViewCell.h */,
+				21F27EF920DC521800C1A0B6 /* CatPictureCollectionViewCell.m */,
+				21F27EF520DC4F3700C1A0B6 /* NetworkManager.h */,
+				21F27EF620DC4F3700C1A0B6 /* NetworkManager.m */,
+				21F27EF220DC48BC00C1A0B6 /* Photo.h */,
+				21F27EF320DC48BC00C1A0B6 /* Photo.m */,
 				21F27EDF20DC403B00C1A0B6 /* Main.storyboard */,
 				21F27EE220DC403D00C1A0B6 /* Assets.xcassets */,
 				21F27EE420DC403D00C1A0B6 /* LaunchScreen.storyboard */,
@@ -144,6 +159,9 @@
 				21F27EDE20DC403B00C1A0B6 /* ViewController.m in Sources */,
 				21F27EE920DC403D00C1A0B6 /* main.m in Sources */,
 				21F27EDB20DC403B00C1A0B6 /* AppDelegate.m in Sources */,
+				21F27EF720DC4F3700C1A0B6 /* NetworkManager.m in Sources */,
+				21F27EFA20DC521800C1A0B6 /* CatPictureCollectionViewCell.m in Sources */,
+				21F27EF420DC48BC00C1A0B6 /* Photo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
