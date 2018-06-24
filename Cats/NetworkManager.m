@@ -51,7 +51,7 @@
             
         }
         NSArray<Photo*>* result = [catInfoArray copy];
-        NSLog(@"%@", result);
+        
         completion(result);
         
     }];

@@ -21,6 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
+//    
+//    layout.itemSize = CGSizeMake(self.view.frame.size.width/2, self.view.frame.size.height/4);
+    
+    
+    
     [NetworkManager fetchPictures:^(NSArray<Photo*>*catArray) {
         self.catArray = catArray;
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
@@ -48,7 +55,9 @@
     NSData *data = [NSData dataWithContentsOfURL:photo.pictureURL];
     UIImage *catPicture = [UIImage imageWithData:data];
     
+    cell.catTitle.text = photo.title;
     cell.catImage.image = catPicture;
+    
     
     
     return cell;
